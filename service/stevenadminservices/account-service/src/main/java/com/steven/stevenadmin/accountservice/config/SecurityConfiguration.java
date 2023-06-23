@@ -56,7 +56,7 @@ public class SecurityConfiguration {
 
     private final RSAKeyProperties rsaKeyProperties;
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
-    private final AuthenticationProvider authenticationManager;
+//    private final AuthenticationProvider authenticationManager;
 
     @Bean
     public PasswordEncoder passwordEncoder() {
